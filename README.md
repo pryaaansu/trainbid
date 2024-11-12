@@ -14,10 +14,11 @@ TrainBid is an innovative platform designed to help travelers secure train ticke
 ### Example Screenshots of the Platform
 
 - **Home Page**  
-  ![Home Page](link-to-your-image.png)
+  ![Home Page](homepage.png)
+  ![Home Page](page.png)
   
 - **Bidding Interface**  
-  ![Bidding Interface](link-to-your-image.png)
+  ![Bidding Interface](video.png)
 
 You can also add animated GIFs or screen recordings if you want to demonstrate the bidding process.
 
