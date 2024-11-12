@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainBid - Place Your Bid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>TrainBid</h1>
+        <p>Auction Your Train Tickets</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="auctions.html">Current Auctions</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="bidding-container">
+            <h2>Place Your Bid</h2>
+            <div id="auctionDetails"></div>
+            <form class="bid-form" id="bidForm">
+                <input type="number" id="bidAmount" placeholder="Enter your bid amount" required>
+                <button type="submit" class="btn">Place Bid</button>
+            </form>
+            <div class="bid-history">
+                <h3>Bid History</h3>
+                <ul id="bidHistory"></ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TrainBid. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

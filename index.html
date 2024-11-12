@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regonna - Premium Train Ticket Auctions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Regonna</h1>
+            <p>Get 100% confirmed ticket!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="auctions.html">Live Auctions</a></li>
+                <li><a href="about.html">Know Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider">
+            <img src="train1.jpg" alt="Luxury Train">
+            <img src="train2.jpg" alt="High-Speed Train">
+            <img src="train3.jpg" alt="Scenic Railway">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="search-container">
+            <h2>Find Your Journey</h2>
+            <form class="search-form" action="auctions.html">
+                <select name="from" required>
+                    <option value="">From Station</option>
+                    <option value="BOM">Mumbai (BOM)</option>
+                    <option value="DEL">Delhi (DEL)</option>
+                    <option value="BLR">Bangalore (BLR)</option>
+                    <option value="MAA">Chennai (MAA)</option>
+                    <option value="CCU">Kolkata (CCU)</option>
+                </select>
+                <select name="to" required>
+                    <option value="">To Station</option>
+                    <option value="BOM">Mumbai (BOM)</option>
+                    <option value="DEL">Delhi (DEL)</option>
+                    <option value="BLR">Bangalore (BLR)</option>
+                    <option value="MAA">Chennai (MAA)</option>
+                    <option value="CCU">Kolkata (CCU)</option>
+                </select>
+                <input type="date" required>
+                <select name="class">
+                    <option value="">Select Class</option>
+                    <option value="1A">First AC</option>
+                    <option value="2A">Second AC</option>
+                    <option value="3A">Third AC</option>
+                    <option value="SL">Sleeper</option>
+                </select>
+                <button type="submit" class="btn">Search Auctions</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Regonna. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regonna - Live Auctions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Regonna</h1>
+            <p>100% Assured Tickets On The Go!!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="auctions.html">Live Auctions</a></li>
+                <li><a href="about.html">Know Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="search-container">
+            <h2>Find Your Premium Journey</h2>
+            <form class="search-form" id="searchForm">
+                <select name="from" id="fromStation" required>
+                    <option value="">From Station</option>
+                    <option value="BOM">Mumbai (BOM)</option>
+                    <option value="DEL">Delhi (DEL)</option>
+                    <option value="BLR">Bangalore (BLR)</option>
+                    <option value="MAA">Chennai (MAA)</option>
+                    <option value="CCU">Kolkata (CCU)</option>
+                </select>
+                <select name="to" id="toStation" required>
+                    <option value="">To Station</option>
+                    <option value="BOM">Mumbai (BOM)</option>
+                    <option value="DEL">Delhi (DEL)</option>
+                    <option value="BLR">Bangalore (BLR)</option>
+                    <option value="MAA">Chennai (MAA)</option>
+                    <option value="CCU">Kolkata (CCU)</option>
+                </select>
+                <input type="date" id="journeyDate" required>
+                <select name="class" id="travelClass">
+                    <option value="">Select Class</option>
+                    <option value="1A">First AC</option>
+                    <option value="2A">Second AC</option>
+                    <option value="3A">Third AC</option>
+                    <option value="SL">Sleeper</option>
+                </select>
+                <button type="submit" class="btn">Search Auctions</button>
+            </form>
+        </div>
+        <h2>Current Auctions</h2>
+        <div id="auctionContainer" class="auction-container">
+            <!-- Auctions will be dynamically added here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Regonna. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
