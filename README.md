@@ -105,5 +105,5 @@ For any questions or suggestions, feel free to reach out to:
 
 - **Priyanshu Pramanik**  
   Email: prynsu99@gmail.com  
-  GitHub Profile: [@your-username](https://github.com/pryaaansu)
+  GitHub Profile: [@pryaaansu](https://github.com/pryaaansu)
 
