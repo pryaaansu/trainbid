@@ -18,7 +18,7 @@ TrainBid is an innovative platform designed to help travelers secure train ticke
   ![Home Page](page.png)
   
 - **Bidding Interface**  
-  ![Bidding Interface](video.png)
+  ![Bidding Interface](video.mp4)
 
 You can also add animated GIFs or screen recordings if you want to demonstrate the bidding process.
 
@@ -26,7 +26,7 @@ You can also add animated GIFs or screen recordings if you want to demonstrate t
 
 Check out this short demo video to understand how the bidding system works and how you can place a bid on your next ticket.
 
-[Watch the Demo Video](link-to-video)
+[Watch the Demo Video](video.mp4)
 
 ## Technologies Used
 
@@ -99,15 +99,11 @@ We welcome contributions to TrainBid! If you'd like to contribute, please follow
     `git push origin feature/your-feature-name`
 6. **Create a pull request**.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any questions or suggestions, feel free to reach out to:
 
-- **Your Name**  
-  Email: your.email@example.com  
-  GitHub Profile: [@your-username](https://github.com/your-username)
+- **Priyanshu Pramanik**  
+  Email: prynsu99@gmail.com  
+  GitHub Profile: [@your-username](https://github.com/pryaaansu)
 
