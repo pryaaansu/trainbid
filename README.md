@@ -1,5 +1,7 @@
 # TrainBid: Dynamic Train Ticket Bidding Platform
 
+## **NOTE**: This website is an idea of solving the issue, all are automated bots and no real transactions are performed within the websites.
+
 TrainBid is an innovative platform designed to help travelers secure train tickets even when they are out of stock. The website allows users to place bids on pre-purchased train tickets as demand rises. When tickets are no longer available through traditional channels, the bidding process opens, enabling travelers to compete for available seats. This dynamic pricing model ensures fair access to tickets during high-demand periods, helping users travel with ease.
 
 ## Features
